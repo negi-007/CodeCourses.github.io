@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#0066ff">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/logo/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--=============== MANIFEST ===============-->
+        <link rel="manifest" href="manifest.json">
+
+        <!--=============== APPLE TOUCH ICONS ===============-->
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-72x72.png">
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-96x96.png">
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-128x128.png">
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-144x144.png">
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-152x152.png">
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-192x192.png">
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-384x384.png">
+        <link rel="apple-touch-icon" href="assets/img/logo/logo-512x512.png">
+
+        <title>CodeCourses: Responsive Landing page of a courses website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="./assets/img/logo/favicon.png"></i> Codecourses
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Courses</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__btns">
+                    <!-- Login Page Button -->
+                    <button class="button button--flex nav__login-btn">
+                        Login
+                    </button>
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            The Ultimate <br>key to success
+                        </h1>
+                        <p class="home__description">
+                            Let's prepare for tommorow.
+                        </p>
+                        <button class="button button--flex">
+                            <a href="#about" class="home__anchor">
+                                Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow Us</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who we are & why CodeCourses ?
+                        </h2>
+
+                        <p class="about__description">
+                            We are an online coding support platform providing pocket friendly coding courses of best quality.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Teaches skills from scratch to advanced.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Hand Picked Question
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We also provides Self placed courses.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% money back guaranteed.
+                            </p>
+                        </div>
+                        <a href="" class="button--link button--flex">
+                            Read more <i class="ri-arrow-right-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> coding journey
+                    </h2>
+                    <div class="steps__container grid">
+                        <div class="steps__card color1">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title h3-to-white">Choose language</h3>
+                            <p class="steps__card-description">
+                                Pick one from C++/Java and master it with our base language course.
+                            </p>
+                        </div>
+
+                        <div class="steps__card color2">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title h3-to-white">Learn OOPs concepts</h3>
+                            <p class="steps__card-description">
+                                Once you master your language, now learn Object Oriented Programming concepts.
+                            </p>
+                        </div>
+
+                        <div class="steps__card color3">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title h3-to-white">Master DSA</h3>
+                            <p class="steps__card-description">
+                                Now its time to master your Data Structure and Algoritm Skills.
+                            </p>
+                        </div>
+
+                        <div class="steps__card color4">
+                            <div class="steps__card-number">04</div>
+                            <h3 class="steps__card-title h3-to-white">Solve Ultimate SDE sheet</h3>
+                            <p class="steps__card-description">
+                                The sheet is prepared by our Alumini placed at MAANG and other topmost software comapanies.
+                            </p>
+                        </div>
+                        <div class="steps__card color5">
+                            <div class="steps__card-number">05</div>
+                            <h3 class="steps__card-title h3-to-white">Learn Web Development</h3>
+                            <p class="steps__card-description">
+                                From HTML, CSS, Javascript to MERN stack developer - with complete guidance and support.
+                            </p>
+                        </div>
+                        <div class="steps__card color6">
+                            <div class="steps__card-number">06</div>
+                            <h3 class="steps__card-title h3-to-white">Build Projects</h3>
+                            <p class="steps__card-description">
+                                Acess to the tutorial and test series where we build mini and advaned major projects on every domain.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== Courses/Products ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Check out our <br> popular courses
+                </h2>
+
+                <p class="product__description">
+                    Here are some selected courses provided by us, which are most loved and rated by our students.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <img src="./assets/img/Courses/DSA.jpg" alt="" class="product__img">
+                        <h3 class="product__title">Data Structures and Algoritm</h3>
+                        <span class="product__price">3499</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-play-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <img src="./assets/img/Courses/Cybersecurity.jpg" alt="" class="product__img">
+                        <h3 class="product__title">Cyber Security</h3>
+                        <span class="product__price">7499</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-play-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <img src="assets/img/Courses/Blockchain.jpg" alt="" class="product__img">
+                        <h3 class="product__title">Blockdhain</h3>
+                        <span class="product__price">3999</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-play-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <img src="assets/img/Courses/Machine Learning.jpg" alt="" class="product__img">
+                        <h3 class="product__title">Machine Learning</h3>
+                        <span class="product__price">9499</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-play-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <img src="assets/img/Courses/Mern Stack.jpg" alt="" class="product__img">
+                        <h3 class="product__title">Mern Stack Development</h3>
+                        <span class="product__price">5499</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-play-fill"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <img src="assets/img/Courses/Aritificial Intelligence.jpg" alt="" class="product__img">
+                        <h3 class="product__title">Artificial Intelligence with Python</h3>
+                        <span class="product__price">12499</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-play-fill"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Frequently Asked Questions
+                </h2>
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item color1">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title h3-to-white">
+                                    What if I was unable to complete my course in a given time period ?
+                                </h3>
+                            </header>
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    You must contact us through our mail id UserSupport@codecourses.in mentioning the reason and the proof for not completing, till then you cannot claim your certification.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="questions__item color2">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title h3-to-white">
+                                    Can I get the refund of the course I had purchased ?
+                                </h3>
+                            </header>
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Yes, ofcourse you may get your refund through us within 3 days of starting any course.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="questions__item color3">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title h3-to-white">
+                                    Does Codecourses provides any free course ?
+                                </h3>
+                            </header>
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Currently we are not having free courses all our courses just requires an reasonable amount of money.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="questions__group">
+                        <div class="questions__item color4">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title h3-to-white">
+                                    Do I get any placement support from Codecourses ?
+                                </h3>
+                            </header>
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    In terms of placement support we do not have companies to place our students but we do have an upcomming placement ready programme which will make you placement ready within time span of 6 months.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="questions__item color5">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title h3-to-white">
+                                    What if by any chance I miss my live class due to any error or prior reason ?
+                                </h3>
+                            </header>
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    After 6 hours of every live class the live class is swapped with the vedio of the live class so that you can learn more efficiently.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="questions__item color6">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title h3-to-white">
+                                    Can I apply for fincancial aid in any course ?
+                                </h3>
+                            </header>
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Yes, you may apply only if you really cannot afford our courses, a proper verefication progess will be done in this case.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Reach out to us today <br> via WhatsApp or <br>through E-mail
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Call us for instant support <br>or WhatsApp to know more</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +91 92429-92429
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Write us by mail</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    UserSupport@codecourses.in
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Subject</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Message</label>
+                            </div>
+                        </div>
+                        <a href="https://mail.google.com/">
+                            <button class="button button--flex">
+                                Send Message
+                                <i class="ri-arrow-right-up-line button__icon"></i>
+                            </button>
+                        </a>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="./assets/img/logo/favicon.png" alt=""></i> CodeCourses
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our
+                        <i class="ri-youtube-fill"></i>
+                        Youtube Channel <br> to stay updated.
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        Youtube <br> CodeCourses
+                        <a href="https://www.youtube.com/index?feature=signin">
+                            <button class="button button--flex footer__button">
+                                Subscribe
+                                <i class="ri-arrow-right-up-line button__icon"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">
+                            <a href="" class="footer__services">Privacy Policy</a>
+                        </li>
+                        <li class="footer__information">
+                            <a href="" class="footer__services">Terms of Use</a>
+                        </li>
+                        <li class="footer__information">
+                            <a href="" class="footer__services">Refund Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">
+                            +91 92429-92429
+                        </li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Payments aceepted through...
+                    </h3>
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                    <br><br>
+                    <h3 class="footer__title">
+                        or any other online payment method
+                    </h3>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2023 CodeCourses. All rigths reserved</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER SCRIPT  ===============-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
